@@ -1,0 +1,78 @@
+html {
+  font-size: clamp(1rem, calc(0.5rem + 1vw), 1.625rem);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 3vw 0 3vw 0;
+}
+
+header nav ul li {
+  padding: 2vw 0 2vw 0;
+  color: rgb(124, 124, 124);
+}
+
+/* === Banner === */
+
+section.banner {
+  padding: 1vw 2vw 1vw 2vw;
+}
+
+section.banner h2 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+section.banner h2 span {
+  color: #458FF6;
+}
+
+section.banner p {
+  color: gray;
+  padding: 2vw 1vw 2vw 1vw;
+}
+
+section.banner p a {
+  background-color: #458FF6;
+  color: white;
+  padding: 8px 16px 8px 16px;
+  border-radius: 10px;
+}
+
+/* === cuidados === */
+
+section.cuidados {
+  text-align: center;
+  padding: 1vw 2vw 1vw 2vw;
+}
+
+section.cuidados h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-bottom: 2px solid black
+}
+
+/* desktop */
+
+@media only screen and (min-width: 600px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw 3vw 10vw;
+  }
+
+  header nav ul {
+    display: flex;
+    gap: 20px;
+  }
+
+  header nav ul li:hover {
+    color:black;
+  }
+  section.banner {
+    display: flex;
+    padding: 3vw 10vw 3vw 10vw;
+    gap: 2vw;
+  }
+}
