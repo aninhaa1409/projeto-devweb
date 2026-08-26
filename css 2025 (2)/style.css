@@ -1,0 +1,150 @@
+html {
+    font-size: clamp(1rem, calc(0.5rem + 2vw), 1.625rem);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a.btn {
+    background-color: #96BB7C;
+    color: #FFFFFF;
+    padding: 4px 16px 4px 16px;
+    border-radius: 4px;
+}
+
+a.btn:hover {
+    background-color: #586b4a;
+}
+
+a.btn-border {
+    border: 2px solid #96BB7C;
+    color: #96BB7C;
+    padding: 4px 16px;
+    border-radius: 4px;
+}
+
+a.btn-border:hover{
+    background-color: #586b4a;
+    color: #FFFFFF;
+}
+
+header {
+    background-color: #FFF2F3;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw 3vw 10vw;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    font-size: 0.8rem;
+}
+
+header h1 {
+    font-weight: 600;
+}
+
+/*=== banner ===*/
+
+section.banner {
+    background: #FFF2F3;
+    padding: 3vw 10vw 0vw 10vw;
+    display: flex;
+    gap: 3vw;
+}
+
+section.banner h3 {
+    color: #96BB7C;
+    padding: 3vw 0vw 5vw 0vw;
+}
+
+section.banner h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0vw 0vw 2vw 0vw;
+}
+
+section.banner p {
+    color: #737373;
+    padding: 0vw 0vw 2vw 0vw;
+}
+
+/*=== team ===*/
+
+section.team {
+    padding: 8vw 10vw 10vw 10vw;
+}
+
+section.team ul {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    padding: 3vw 0vw 0vw 0vw;
+
+}
+
+section.team h3 {
+    color: #96BB7C;
+    padding: 1vw 0vw 1vw 0vw;
+    font-size: 0.8rem;
+}
+
+section.team h2 {
+    font-weight: bold;
+    padding: 0vw 0vw 2vw 0vw;
+}
+
+section.team p {
+    color: #737373;
+    font-size: 0.6rem;
+    padding: 0vw 0vw 1vw 0vw;
+}
+
+section.team ul li {
+    width: 15%;
+    background: #ECF0E8;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+section.team ul li p {
+    color: #737373;
+    font-size: 0.7rem;
+}
+
+section.new {
+    background-color: #FFF2F3;
+    text-align: center;
+    padding: 10vw 10vw 10vw 10vw;
+}
+
+section.new h3{
+    color: #96BB7C;
+    padding: 1vw 0vw 1vw 0vw;
+    font-size: 0.8rem;
+}
+
+section.new h2 {
+    font-weight: bold;
+    padding: 0vw 0vw 2vw 0vw;
+}
+
+section.new p {
+    color: #737373;
+    font-size: 0.6rem;
+    padding: 0vw 0vw 1vw 0vw;
+}
+
+footer {
+    padding: 3vw 7vw 3vw 7vw;
+    display: flex;
+    gap: 55vw;
+}
+
+footer p {
+    color: #737373;
+    font-size: 0.7rem;
+}
+
+footer img {
+    padding: 0 10px 0 10px;
+}
