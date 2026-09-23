@@ -25,7 +25,64 @@ header nav ul li.botao-amarelo a{
 
 main section.banner {
     background: url(../images/background-banner.png) no-repeat;
-    background-size: 100% auto;
+    background-size: auto 100%;
+    padding: 3vw 5vw 3vw 5vw;
+}
+
+section.banner div.imagem {
+    display: none;
+}
+
+section.banner h2 {
+    font-size: 1.8rem;
+}
+
+section.banner p a{
+    background: #252B42;
+    color: white;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+section.banner p {
+    display: flex;
+    gap: 12px;
+    margin: 10px 0 0 0;
+}
+
+section.banner p img {
+    height: 1rem;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+section.ready div.imagem {
+    display: none;
+}
+
+section.ready {
+    text-align: center;
+    padding: 3vw 5vw 3vw 5vw;
+}
+
+section.ready h2 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+section.ready p {
+    color: grey;
+}
+
+section.ready ul li {
+    margin: 20px 0 0 0;
+}
+
+section.ready ul li h3 {
+    font-weight: bolder;
 }
 
 @media only screen and (min-width: 600px) {
@@ -53,4 +110,46 @@ main section.banner {
         background-color: white;
         border: 3px solid #FBBC05;
     }
+
+    section.banner div.imagem {
+        display: block;
+    }
+
+    section.banner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    section.banner div.imagem img {
+        height: 40vw;
+    }
+
+    section.ready div.imagem {
+        display: block;
+    }
+
+    section.ready >div {
+        display: flex;
+    }
+
+    section.ready div.lista ul{
+        display: flex;
+        gap: 2vw;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+
+    section.ready div.lista ul li {
+        width: 40%;
+    }
+
+    section.ready div div {
+        width: 50%;
+    }
+
+    section.ready >p {
+        padding: 5vw 15vw;
+    }
+
 } 
