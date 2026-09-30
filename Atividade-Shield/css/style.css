@@ -1,0 +1,166 @@
+header {
+    background-color: aliceblue;
+    padding: 3vw 10vw 3vw 10vw;
+    text-align: center;
+}
+
+header nav ul {
+    display: block;
+    gap: 70px;
+    font-size: 1.2rem;
+    color: #03045E;
+    font-weight: bold;
+}
+
+header nav ul li {
+    padding: 3vw 0 3vw 0;
+}
+
+header nav ul li a.btn-escuro {
+    background-color: #03045E;
+    color: white;
+    padding: 2vw 6vw 2vw 6vw;
+    border-radius: 6px;
+}
+
+.banner {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 4vw 5vw 4vw 5vw;
+}
+
+.banner div h1 {
+    color: #03045E;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 3vw 0 3vw 0;
+}
+
+.banner div p {
+    color: #03055e8e;
+    padding: 3vw 0 3.5vw 0;
+}
+
+.banner div p.btn-claro a {
+    background-color: #0098FF;
+    color: white;
+    padding: 1vw 3vw 1vw 3vw;
+    border-radius: 5px;
+}
+
+.services {
+    background-color: #f8f8f8;
+    margin: 6vw 0 0 0;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 1.5rem;
+    padding: 3vw 0;
+    font-weight: bold;
+}
+
+.services ul li {
+    padding: 4vw 0;
+}
+
+.services ul li img {
+    background-color: #e9e9e9;
+    border-radius: 7px;
+}
+
+.services ul li h3 {
+    color: #03045E;
+    font-weight: bold;
+    padding: 2.5vw 0 2.5vw 0;
+    font-size: 1.2rem;
+}
+
+.services p {
+    color: #03055e8e;
+    padding: 0 0 2.5vw 0;
+}
+
+.numeros {
+    background-color: #0098FF;
+    text-align: center;
+    color: white;
+    padding: 3vw 0;
+}
+
+.numeros h4 {
+    font-size: 3rem;
+}
+
+@media only screen and (min-width: 600px) {
+
+    header {
+        background-color: aliceblue;
+        display: flex;
+        justify-content: space-between;
+        padding: 3vw 10vw 3vw 10vw;
+        align-items: center;
+    }
+
+    header nav ul {
+        display: flex;
+        gap: 70px;
+        font-size: 1.2rem;
+        color: #03045E;
+        font-weight: bold;
+    }
+
+    header nav ul li a.btn-escuro {
+        background-color: #03045E;
+        color: white;
+        padding: 1vw 2.5vw 1vw 2.5vw;
+    }
+
+    .banner {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        padding: 4vw 5vw 4vw 10vw;
+    }
+
+    .banner div h1 {
+        font-size: 4rem;
+        padding: 0;
+    }
+
+    .banner div p {
+        padding: 1vw 0 1.5vw 0;
+        font-size: 1.5rem;
+    }
+
+    .banner div p.btn-claro a {
+        background-color: #0098FF;
+        color: white;
+        padding: 1vw 2vw 1vw 2vw;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    .services {
+        margin: 3vw 0 0 0;
+    }
+
+    .services ul {
+        display: flex;
+        margin: 0 5vw;
+    }
+
+    .services h2 {
+        font-size: 2.5rem;
+    }
+
+    .services ul li h3 {
+        font-size: 1.5rem;
+        padding: 1.5vw 0;
+    }
+
+    .services ul li {
+        margin: 0 5vw;
+    }
+
+}
