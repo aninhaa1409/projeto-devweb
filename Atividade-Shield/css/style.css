@@ -78,7 +78,7 @@ header nav ul li a.btn-escuro {
 
 .services p {
     color: #03055e8e;
-    padding: 0 0 2.5vw 0;
+    padding: 0 5vw;
 }
 
 .numeros {
@@ -162,5 +162,11 @@ header nav ul li a.btn-escuro {
     .services ul li {
         margin: 0 5vw;
     }
+
+    .services p {
+        padding: 0;
+    }
+
+    
 
 }

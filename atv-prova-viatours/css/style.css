@@ -1,0 +1,290 @@
+/* === IMPORTAÇÃO DE FONTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+/*
+Fontes Disponíveis:
+// Sugiro usar esta 
+ 
+font-family: "Fredoka", sans-serif;
+font-family: "Epilogue", sans-serif;
+font-family: "Nunito", sans-serif;
+font-family: "Oswald", sans-serif;
+*/
+/* ==========================*/
+
+/* ==== FORMATAÇÃO GERAL === */
+html {
+    font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
+    font-family: "Urbanist", sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: #FEF8F5;
+}
+
+header nav div h1 a img {
+    padding: 4vw;
+}
+
+header nav div ul li {
+    padding: 2vw;
+}
+
+header nav div ul li a.laranja {
+    color: #ED672B;
+}
+
+header nav div ul li a.botao {
+    background-color: #ED672B;
+    padding: 2vw 5vw;
+    border-radius: 5vw;
+    color: rgb(255, 255, 255);
+}
+
+.banner {
+    padding: 5vw;
+    text-align: center;
+    background-color: #FEF8F5;
+}
+
+.banner h1 {
+    padding: 3vw 0 0 0;
+    color: #ED672B;
+    font-weight: bold;
+}
+
+.opcoes h2 {
+    color: #05073C;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 8vw 5vw 0 5vw;
+}
+
+.opcoes ul {
+    padding: 3vw 5vw 3vw 5vw;
+    color: #05073C;
+}
+
+.opcoes ul li {
+    padding: 4vw 0;
+}
+
+.opcoes ul li p {
+    font-size: 0.8rem;
+}
+
+.customer {
+    color: #05073C;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 8vw 5vw;
+}
+
+.customer h2 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.customer img {
+    padding: 7vw 0;
+}
+
+.customer p {
+    font-size: 0.9rem;
+}
+
+.get {
+    background-color: #ED672B;
+    color: #ffffff;
+    padding: 3vw 5vw 0 5vw;
+}
+
+.get h2 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 5vw 1vw;
+}
+
+.get p {
+    font-size: 0.8rem;
+    padding: 3vw 0;
+}
+
+.get p.btn a {
+    background-color: #ffffff;
+    color: #ED672B;
+    padding: 2vw 4vw;
+    border-radius: 5vw;
+}
+
+footer {
+    background-color: #05073C;
+    color: #ffffff;
+    padding: 5vw;
+}
+
+footer h4 {
+    font-size: 0.85rem;
+    padding: 4vw 0 4vw 0;
+}
+
+footer p {
+    font-size: 0.7rem;
+}
+
+footer ul {
+    padding: 4vw 0;
+}
+
+footer ul li {
+    font-size: 0.7rem;
+}
+
+footer ul li span {
+    font-size: 0.85rem;
+}
+
+
+
+/* MEDIA QUERY - DESKTOP */
+@media screen and (min-width: 600px) {
+
+    header nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header nav {
+        align-items: center;
+    }
+
+    header div ul {
+        display: flex;
+    }
+
+    header nav div ul li {
+        font-size: 0.6rem;
+    }
+
+    header nav div ul li a.botao {
+        padding: 1vw 2.5vw;
+    }
+
+    .banner {
+        padding: 0;
+        text-align: center;
+        background-color: #FEF8F5;
+    }
+
+    .banner h1 {
+        padding: 0;
+        color: #ED672B;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    .opcoes h2 {
+        color: #05073C;
+        font-weight: bold;
+        font-size: 1.1rem;
+        padding: 3vw 3vw 0 8.5vw;
+    }
+
+    .opcoes ul {
+        display: flex;
+        padding: 3vw 5vw 3vw 5vw;
+        color: #05073C;
+        gap: 10vw;
+        justify-content: space-between;
+    }
+
+    .opcoes ul li {
+        padding: 1vw 4vw;
+    }
+
+    .opcoes ul li h3 {
+        font-size: 0.7rem;
+    }
+
+    .opcoes ul li p {
+        font-size: 0.5rem;
+    }
+
+    .customer {
+        color: #05073C;
+        background-color: #f1f1f1;
+        text-align: center;
+        padding: 5vw 5vw;
+    }
+
+    .customer h2 {
+        font-size: 1rem;
+    }
+
+    .customer img {
+        padding: 5vw 0;
+    }
+
+    .customer p {
+        font-size: 0.7rem;
+    }
+
+    .get {
+        display: flex;
+        background-color: #ED672B;
+        color: #ffffff;
+        padding: 3vw 5vw 0 5vw;
+        justify-content: space-between;
+    }
+
+    .get h2 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        padding: 4vw 0;
+    }
+
+    .get p {
+        font-size: 0.6rem;
+        padding: 0 0 4vw 0;
+    }
+
+    .get p.btn a {
+        background-color: #ffffff;
+        color: #ED672B;
+        padding: 1vw 3vw;
+        border-radius: 5vw;
+    }
+
+    footer {
+        background-color: #05073C;
+        color: #ffffff;
+        padding: 3vw 5vw 0 5vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer h4 {
+        font-size: 0.7rem;
+        padding: 0 0 2vw 0;
+    }
+
+    footer p {
+        font-size: 0.5rem;
+    }
+
+    footer ul {
+        padding: 4vw 0;
+    }
+
+    footer ul li {
+        font-size: 0.5rem;
+        padding: 7px 0;
+    }
+
+    footer ul li span {
+        font-size: 0.7rem;
+    }
+
+}
